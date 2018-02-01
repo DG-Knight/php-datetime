@@ -1,5 +1,5 @@
 # php-datetime
-"<?php 
+/*
 // Learn more https://www.w3schools.com/php/php_date.asp
 date_default_timezone_set('Asia/Bangkok'); // ตั้งค่าเขคตวันเวลาให้เป็นของประเทศ "ไทย"
 $date = strtotime('2018-01-01'); //เปลี่ยน String ให้อยู่ในรูปแบบวันที่หรือเวลา
@@ -33,5 +33,5 @@ echo "The time is " . date("H:i")." น.<br>"; // The time is 21:44 แบบ 24
 
 $now = new DateTime();
 echo $now->format('Y-m-d H:i:s')."<br>";    // MySQL datetime format  2018-02-01 22:54:20
-//echo $now->getTimestamp(); 
-?>"
+//echo $now->getTimestamp(); */
+
