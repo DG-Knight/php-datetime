@@ -1,22 +1,22 @@
 # php-datetime
 /*
-// Learn more https://www.w3schools.com/php/php_date.asp
-date_default_timezone_set('Asia/Bangkok'); // ตั้งค่าเขคตวันเวลาให้เป็นของประเทศ "ไทย"
-$date = strtotime('2018-01-01'); //เปลี่ยน String ให้อยู่ในรูปแบบวันที่หรือเวลา
-$day = strtotime('Monday');
-//date 
-echo "The day is " . date("d  F  Y"). "<br>"; // 14 February 2017
-echo "The day is " . date("D  d  F  Y"). "<br>"; // Tue February 2017 
-echo "The day is " . date("Y/m/d") . "<br>"; // 2017/02/14 แบบรับค่าวันปัจจุบัน
-echo "The day is " . date("Y/m/d",$date) . "<br>"; // 2017/02/14 แบบกำหนดค่า
-echo "The day is " . date("d/m/Y") . "<br>"; // 14/01/2017 แบบรับค่าวันปัจจุบัน
-echo "The day is " . date("d/m/Y",$date) . "<br>"; // 14/02/2017 แบบกำหนดค่า
-echo "The day is " . date("Y.m.d") . "<br>"; // 2017.02.14 แบบรับค่าวันปัจจุบัน
-echo "The day is " . date("Y.m.d",$date) . "<br>"; // 2017.02.14 แบบกำหนดค่า
-echo "The day is " . date("d.m.Y") . "<br>"; // 14.02.2017 แบบรับค่าวันปัจจุบัน
-echo "The day is " . date("d.m.Y",$date) . "<br>"; // 14.02.2017 แบบรับค่าวันปัจจุบัน
-echo "The day is " . date("Y-m-d") . "<br>"; // 2017-02-14
-echo "The day is " . date("Y-m-d",$date) . "<br>"; // 2017-02-14
+# Learn more https://www.w3schools.com/php/php_date.asp
+#date_default_timezone_set('Asia/Bangkok'); // ตั้งค่าเขคตวันเวลาให้เป็นของประเทศ "ไทย"
+#$date = strtotime('2018-01-01'); //เปลี่ยน String ให้อยู่ในรูปแบบวันที่หรือเวลา
+#$day = strtotime('Monday');
+#//date 
+#echo "The day is " . date("d  F  Y"). "<br>"; // 14 February 2017
+#echo "The day is " . date("D  d  F  Y"). "<br>"; // Tue February 2017 
+#echo "The day is " . date("Y/m/d") . "<br>"; // 2017/02/14 แบบรับค่าวันปัจจุบัน
+#echo "The day is " . date("Y/m/d",$date) . "<br>"; // 2017/02/14 แบบกำหนดค่า
+#echo "The day is " . date("d/m/Y") . "<br>"; // 14/01/2017 แบบรับค่าวันปัจจุบัน
+#echo "The day is " . date("d/m/Y",$date) . "<br>"; // 14/02/2017 แบบกำหนดค่า
+#echo "The day is " . date("Y.m.d") . "<br>"; // 2017.02.14 แบบรับค่าวันปัจจุบัน
+#echo "The day is " . date("Y.m.d",$date) . "<br>"; // 2017.02.14 แบบกำหนดค่า
+#echo "The day is " . date("d.m.Y") . "<br>"; // 14.02.2017 แบบรับค่าวันปัจจุบัน
+#echo "The day is " . date("d.m.Y",$date) . "<br>"; // 14.02.2017 แบบรับค่าวันปัจจุบัน
+#echo "The day is " . date("Y-m-d") . "<br>"; // 2017-02-14
+#echo "The day is " . date("Y-m-d",$date) . "<br>"; // 2017-02-14
 echo "The day is " . date("d-m-Y") . "<br>"; // 14-02-2017
 echo "The day is " . date("d-m-Y",$date) . "<br>"; // 14-02-2017
 echo "The day is " . date("l"). "<br>"; // แสดงวันปัจจุบัน เป็นข้อความ เช่น วันจันทร์ ผลจากการใช้ฟังก์ชันนี้ คือ  Monday
